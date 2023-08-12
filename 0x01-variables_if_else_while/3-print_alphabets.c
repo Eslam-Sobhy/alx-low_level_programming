@@ -3,9 +3,9 @@
 /**
  * main - Entry point
  *
- * Description: A C program prints the alphabets
+ * Description: A C program prints the alphabets lower , upper
  *
- * return: Always 0 (success)
+ * Return: Always 0 (success)
 */
 
 int main(void)
