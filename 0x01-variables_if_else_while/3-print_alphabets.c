@@ -3,18 +3,24 @@
 /**
  * main - Entry point
  *
- * Description: A C program print alphabrt lowercase
+ * Description: A C program prints the alphabets
  *
- * Return: 0 (succcess)
+ * return: Always 0 (success)
 */
 
 int main(void)
 {
 char ch = 'a';
+char CH = 'A';
 while (ch <= 'z')
 {
 	putchar(ch);
 	ch++;
+}
+while (CH <= 'Z')
+{
+	putchar(CH);
+	CH++;
 }
 putchar('\n');
 return (0);
